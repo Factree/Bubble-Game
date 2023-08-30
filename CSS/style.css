@@ -72,8 +72,9 @@ html, body{
 .pbtm{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: start;
+    /* align-content: space-between; */
+    justify-content: center;
+    align-items: center;
     width: 100%;
     gap: 9px;
     height: calc(100% - 75px);
@@ -88,7 +89,7 @@ html, body{
     justify-content: center;
     width: 45px;
     height: 45px;
-    background-color: #597d83;
+    background-color: #597a7f;
     color: #41595d;
     border-radius: 50%;
     font-family: 'Oswald', sans-serif;
